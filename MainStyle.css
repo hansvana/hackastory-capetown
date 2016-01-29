@@ -288,7 +288,7 @@ h1 {
       padding-right: 0.5em;
       font-size: 1.5rem;
       vertical-align: -7px; }
-    .answer header nav.showHint, .gameOver header nav.showHint {
+    .answer header nav.showHint, .answer header nav.restartHint, .gameOver header nav.showHint, .gameOver header nav.restartHint {
       float: right;
       padding-top: 5px; }
   .answer.question header:before, .gameOver.question header:before {
