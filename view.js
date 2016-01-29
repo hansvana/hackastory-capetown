@@ -143,7 +143,8 @@
 
         txt += endingVital.explanation;
 
-        txt += "<br><br><img src='media/facebook-share-button.png'>";
+        txt += "<br><br><div id=\"fb-root\"></div><script>(function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = \"http://connect.facebook.net/en_US/all.js#xfbml=1\"; fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'facebook-jssdk'));</script><div class=\"fb-share-button\" data-href=\"http://hansvana.github.io/hackastory-capetown/\" data-layout=\"button_count\"></div>";
+
         txt += "<br><br>Made for <br><img src='media/logo-circle.png' style='width: 50%'>"
         txt += "<br><a href='https://www.hackastory.com/' target='_blank'>Hackastory Capetown 2016</a>";
         txt += "<br><br>Crowd Control is a prototype by";
