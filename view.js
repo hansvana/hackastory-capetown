@@ -143,7 +143,7 @@
 
         txt += endingVital.explanation;
 
-
+        txt += "<br><br><img src='media/facebook-share-button.png'>";
         txt += "<br><br>Made for <br><img src='media/logo-circle.png' style='width: 50%'>"
         txt += "<br><a href='https://www.hackastory.com/' target='_blank'>Hackastory Capetown 2016</a>";
         txt += "<br><br>Crowd Control is a prototype by";

@@ -3,7 +3,7 @@ initialTurn = {
         "text" : "Welcome to South Africa, the protest capital of the world. Police are supposed to facilitate protests without interfering too much.  But it doesn’t always happen that way.",
         "media" : {
             "type": "image",
-            "url": "media/crowd-is-advancing.jpg"
+            "url": "media/flagpicture.jpg"
         }
     },
     "triggerLimits": {},
@@ -285,7 +285,7 @@ turns = [
             "text" : "Wait! This is an illegal protest in terms of the Regulation of Gatherings Act",
             "media" : {
                 "type": "image",
-                "url": "media/Illegal-protest.jpg"
+                "url": "media/photograph.jpg"
             }
         },
         "triggerLimits": {
@@ -647,8 +647,8 @@ turns = [
         "context": {
             "text" : "The protesters react angrily and now there are clashes between protesters and police",
             "media" : {
-                "type": "image",
-                "url": "media/attack-the-police.jpg"
+                "type": "youtube",
+                "url": "https://www.youtube.com/watch?v=_pB4eOKc5MI"
             }
         },
         "triggerLimits": {
@@ -987,8 +987,8 @@ turns = [
         "context": {
             "text" : "You are moved to a part of the protest that is quieter, but some protesters are insulting you and chanting that police brutality \"must fall\".",
             "media" : {
-                "type": " ",
-                "url": " "
+                "type": "image",
+                "url": "media/quieter.jpg"
             }
         },
         "triggerLimits": {
@@ -1042,8 +1042,8 @@ turns = [
         "context": {
             "text" : "The crowd quietens for a while and keeps moving.",
             "media" : {
-                "type": " ",
-                "url": " "
+                "type": "image",
+                "url": "media/quietens.jpg"
             }
         },
         "triggerLimits": {
@@ -1095,8 +1095,8 @@ turns = [
         "context": {
             "text" : "The crowd moves on while singing songs loudly and showing protest posters to observers.",
             "media" : {
-                "type": " ",
-                "url": " "
+                "type": "image",
+                "url": "media/hugecrowd.jpg"
             }
         },
         "triggerLimits": {
