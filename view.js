@@ -115,13 +115,15 @@
                 )
                 .append( $('<section>')
                     .addClass('gameOver')
-                    .append( $('<header>').html('Thank you for playing!'))
+                    .append( $('<header>').html('Thank you for playing!<nav class="restartHint">Play again</nav>'))
                     .append( $('<article>').html(makeEndText(state)))
                 )
             )
             .transition({left: '0'}, 500, function() {
 
             });
+
+        restartButton();
 
     }
 
@@ -172,5 +174,11 @@
         });
     }
     handbookButton();
+
+    function restartButton() {
+        $('body').find('.restartHint').on('click', function () {
+            location.reload();
+        });
+    }
 
 })(engine);
